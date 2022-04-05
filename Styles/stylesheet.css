@@ -1,0 +1,564 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: auto;
+    margin: 0;
+}
+
+/* ESTILOS HEADER */
+
+.logo-luna-vector{
+    width: 50vw;
+    height: 15vh;
+    margin: auto;
+}    
+a{
+    text-decoration: none;
+} 
+header{
+    display: grid;
+    grid-template-columns: 330px auto;
+    grid-template-rows: auto auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.menu-navegador{
+    grid-column: 2/3;
+}
+.menu-principal{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    max-width: 60vw;
+    margin: auto;
+}
+.menu_item{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    line-height: 2vw;
+    border-bottom: 2px solid rgba(255, 132, 132, 0);
+
+}
+.buscador{
+    display: flex;
+    margin: auto 2vh 2vh auto;
+    align-self: flex-end;
+}
+
+#buscador{
+    height: 2rem;
+    width: 300px;
+    margin: 0 1vh 2vh 1vh;
+    border-color: rgb(255, 132, 132, 0.2);
+    border-radius: 5px;
+    color: gray;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.buscador button{
+    padding: 2px;
+    margin: 0 2vh 2vh 1vh;
+    width: 10vh;
+    border: none;
+    background-color: rgb(255, 132, 132, 0.8);
+    color: white;
+    border-radius: 5px;
+}
+
+#lupa{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.logoybuscador{
+    grid-row: 1/3;
+    display: flex;
+    justify-content: left;
+}
+
+/* ESTILOS MAIN */
+
+main{
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+h3 {
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+.presentacion{
+    background-image: url("../Assets/Presentacion.png");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 550px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.titulopresentacion{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 3vh 0 1vh 1vh;
+    color: white;
+    padding: 2vh;
+}
+
+/* ESTILOS CATEGORIAS */
+
+.Jeans { 
+    background-image: url("../Assets/banner_jeans-ok.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Jeans-small { 
+    background-image: url("../Assets/banner_jeans-ok.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Shorts { 
+    background-image: url("../Assets/banner_shorts_ok.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Shorts-small { 
+    background-image: url("../Assets/banner_shorts_small.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Remeras-Tops { 
+    background-image: url("../Assets/banner_remera_ok.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Remeras-Tops-small { 
+    background-image: url("../Assets/banner_remera_small.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Sweaters { 
+    background-image: url("../Assets/banner-sweater-small.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Sweaters-small {
+    background-image: url("../Assets/banner-sweater-small.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Camperas { 
+    background-image: url("../Assets/Banner_Campera_ok.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Camperas-small{ 
+    background-image: url("../Assets/Banner_Campera_small.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.categoria_banner{
+    width: 50vw;
+    min-height: 10vw;
+    margin: auto;
+    background-color: rgb(255, 255, 255, 0.80);
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria_banner p{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3vh 0 1vh 0;
+}
+
+.vertodos {
+    display: flex;
+    margin: auto auto 1rem auto;
+    min-height: 4vh;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 132, 132, 0.80);
+    color: black;
+    font-weight: 500;
+    letter-spacing: 0.1vh;
+    text-transform: uppercase;
+    border: none;
+    padding: 8px;
+}
+
+.masproductos{
+    line-height: 6vh;
+    width: 600px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 132, 132);
+    color: white;
+    letter-spacing: 0.2vh;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btmasprod{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin-left: 2%;
+}
+.main_products {
+    display: flex;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+}
+
+.imagen_producto{
+    width: 18vw;
+    height: 23vw;
+    padding: 0.2rem;
+}
+.fa-sliders {
+    padding-right: 2rem;
+}
+.categorias {
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    padding: 8px;
+}
+
+.rrss {
+    text-align: center;
+}
+
+.texto_rrss{
+    margin-top: 50px;
+    margin-bottom: auto;
+    font-size: 2rem;
+}
+
+.fa-brands {
+    font-size: 3rem;
+    padding: 16px;
+}
+.fa-solid{
+    font-size: 2rem;
+    margin: auto 1vh auto auto;
+}
+
+/* ESTILOS SOBRE NOSOTROS */
+
+.sobrenosotros{
+    display: flex;
+    margin: 2rem auto auto auto;
+}
+.sobrenosotros_texto{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 1rem 2rem 1rem 2rem;
+    width: 50vw;
+}
+
+.textohistoria{
+    font-size: 1.3rem;
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+    word-spacing: 2px;
+    line-height: 2rem;
+}
+
+.historia{
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.Interiorlocal{
+    width: 50%;
+    max-height: 100%;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    filter:sepia(50%);
+}
+.Interiorlocal_small{
+    width: 50vw;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    filter:sepia(50%);
+}
+
+/* ESTILOS CONTACTO */
+
+.contacto{
+    display: flex;
+}
+.horarios{
+    background-image: url(../Assets/denim2.png);
+    width: 80vh;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem 3rem auto 3rem;
+}
+.horarios p{
+    font-size: 1.5rem;
+    margin: 0;
+    line-height: 2.5rem;
+    background-color: rgb(255, 255, 255, 0.60);
+}
+
+.titulo_horarios{
+    text-decoration: underline;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2rem;
+    margin: 0;
+}
+.formulario_contacto{
+    margin: auto 2rem auto 2rem;
+}
+.titulo_contacto{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.formulario_contacto input{
+    width: 100%;
+    height: 1.6vw;
+    margin-bottom: 5vh;
+    margin: auto;
+}
+#cuerpomensaje{
+    width: 100%;
+}
+.formulario_contacto label{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.botoncontacto{
+    height: 2rem;
+    width: 20vw;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 132, 132, 0.8);
+    border: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+/* ESTILOS INCIAR SESION Y REGISTRO */
+.iniciosesion_titulo {
+    line-height: 3vh;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.registro_titulo{
+    line-height: 3vh;
+    text-transform: normal;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.form_iniciosesion{
+    display: flex;
+    flex-direction: column;
+    margin: 5vw 35vw auto 35vw;
+}
+.form_registro{
+    display: flex;
+    flex-direction: column;
+    margin: 5vw 35vw auto 35vw;
+}
+.form_registro label{
+line-height: 3vh;
+    margin: auto 0 0.5rem 0;
+}
+.form_iniciosesion label{
+    line-height: 2vh;
+    margin: auto 0 auto 0;
+}
+.form_iniciosesion input{
+    line-height: 4vh;
+}
+.form_registro input{
+    line-height: 4vh;
+}
+.form_iniciosesion button{
+    height: 2rem;
+    width: 20vw;
+    border: none;
+    background-color: rgb(255, 132, 132, 0.8);
+    margin: 1rem auto 2rem auto;
+}
+.form_registro button{
+    height: 2rem;
+    min-width: 20vw;
+    border: none;
+    background-color: rgb(255, 132, 132, 0.8);
+    margin: 1rem auto 2rem auto;
+    text-transform: uppercase;
+}
+/* ESTILOS FOOTER */
+
+footer {
+    background-color: rgb(255, 132, 132, 0.3);
+    padding-bottom: 3rem;
+    margin: 0;
+}
+
+footer button{
+    line-height: 4vh;
+    margin: 1rem auto auto auto;
+    display: flex;
+    justify-items: center;
+
+}
+.grid-footer{
+    display: grid;
+    grid-template-columns: 6fr 2fr 2fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+.titulo-suscripcion {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    max-width: 400px;
+    padding-top: 20px;
+}
+.menu-footer1 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin: 3rem auto 1rem auto;
+    padding: 0;
+}
+
+#suscripcion {
+    padding-left: 10px;
+    line-height: 4vh;
+    width: 30vw;
+
+}
+.suscribete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto{
+    font-size: 1.5rem;
+}
+/* TRANSFORMACIONES Y ANIMACIONES */
+
+.menu_item:hover{
+    color: rgb(255, 132, 132);
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(255, 132, 132);
+}
+
+
+

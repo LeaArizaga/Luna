@@ -1,0 +1,316 @@
+@media(max-width: 600px) {
+  .menu-navegador{
+      display: none;
+  }
+  .buscador {
+      display: none;
+  }
+  header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-bottom: auto;
+  }
+  .logo-luna-vector{
+    width: 20vw;
+    height: 7vh;
+    margin: auto;
+    display: block;
+    }  
+    #burger {
+    margin: auto;
+    padding: 20px;
+    } 
+    .iconos-movil{
+        grid-column: 3/4;
+        grid-row: 1/3;
+        display: flex;
+        justify-items: flex-end;
+    }
+    #userlogin {
+        font-size: 1.5rem;
+        padding: 16px;
+        margin-bottom: auto;
+        color: rgb(255, 132, 132);
+    }
+    #buscadormini {
+        font-size: 1.5rem;
+        padding: 16px;
+        margin-bottom: auto;
+        color: rgb(255, 132, 132);
+    }
+    .Jeans {
+        display: none;
+    }
+    .Shorts {
+        display: none;
+    }
+    .Remeras-Tops {
+        display: none;
+    }
+    .Sweaters {
+        display: none;
+    }
+    .Camperas {
+        display: none;
+    }
+    .categoria_banner_small{
+        width: 60vw;
+        height: 20vw;
+        margin: auto;
+        background-color: rgb(255, 255, 255, 0.80);
+        display: flex;
+        flex-direction: column;
+}
+    .titulo_banner{
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin: auto;
+    }
+    .vertodos {
+        display: flex;
+        margin: auto auto 2vw auto;
+        height: 2rem;
+    }
+    .masproductos {
+        width: 70vw;
+        font-size: 1rem;
+    }
+    .textohistoria{
+        font-size: 1rem;
+        line-height: normal;
+    }
+    .texto_rrss{
+        font-size: 1.5rem;
+    }
+    .fa-brands {
+        font-size: 2rem;
+        padding: 16px;
+    }
+    .Interiorlocal{
+        display: none;    
+    }
+    .imagen_producto{
+        width: 90vw;
+        height: auto;
+    }
+    .item {
+        margin: auto;
+    }
+    .contacto {
+        flex-direction: column-reverse;
+    }
+    .horarios{
+        background-size: contain;
+        margin: 2rem auto 2rem auto;
+        width: 70vh;
+        height: 60vh;
+    }
+    footer {
+        padding-bottom: 1rem;
+    }
+    .grid-footer {
+        grid-template-columns: 1fr;
+    }
+    .suscribete {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .suscribete button {
+        width: fit-content;
+        margin: 2vh auto;
+        height: fit-content;
+        justify-content: center;
+    }    
+    .menu-footer1 {
+        margin: 1rem auto 1rem auto;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
+
+    .menu-navegador{
+        display: none;
+    }
+    .buscador {
+        display: none;
+    }
+    header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: auto;
+    }
+    .logo-luna-vector{
+    width: 20vw;
+    height: 7vh;
+    margin: auto;
+    display: block;
+    }  
+    #burger {
+    margin: auto;
+    padding: 20px;
+    } 
+    .iconos-movil{
+        grid-column: 3/4;
+        grid-row: 1/3;
+        display: flex;
+        justify-items: flex-end;
+    }
+    #userlogin {
+        font-size: 1.5rem;
+        padding: 16px;
+        margin-bottom: auto;
+        color: rgb(255, 132, 132);
+    }
+    #buscadormini {
+        font-size: 1.5rem;
+        padding: 16px;
+        margin-bottom: auto;
+        color: rgb(255, 132, 132);
+    }
+    .Jeans {
+        display: none;
+    }
+    .Jeans-small {
+        width: 100vw;
+        height: 30vw;
+    }
+    .Shorts {
+        display: none;
+    }
+    .Shorts-small {
+        width: 100vw;
+        height: 30vw;
+    }
+    .Remeras-Tops {
+        display: none;
+    }
+    .Remeras-Tops-small {
+        width: 100vw;
+        height: 30vw;
+    }
+    .Sweaters {
+        display: none;
+    }
+    .Sweaters-small {
+        width: 100vw;
+        height: 30vw;
+    }
+    .Camperas {
+        display: none;
+    }
+    .Camperas-small{
+        width: 100vw;
+        height: 30vw;
+    }
+    .categoria_banner_small{
+        width: 50vw;
+        height: 10vw;
+        margin: auto;
+        background-color: rgb(255, 255, 255, 0.80);
+        display: flex;
+        flex-direction: column;
+    }
+    .titulo_banner{
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin: auto;
+    }
+    .vertodos {
+        display: flex;
+        margin: auto auto 2vw auto;
+        height: 2rem;
+    }
+    .masproductos {
+        width: 70vw;
+        font-size: 1rem;
+    }
+    .textohistoria{
+        font-size: 1rem;
+        line-height: normal;
+    }
+    .texto_rrss{
+        font-size: 1.5rem;
+    }
+    .fa-brands {
+        font-size: 2rem;
+        padding: 16px;
+    }
+    .Interiorlocal{
+        display: none;    
+    }
+    .imagen_producto{
+        width: 90vw;
+        height: auto;
+    }
+    .item {
+        margin: auto;
+    }
+    .contacto {
+        flex-direction: column-reverse;
+    }
+    .horarios{
+        background-size: contain;
+        margin: 2rem auto 2rem auto;
+        width: 70vh;
+        height: 60vh;
+    }
+    footer {
+        padding-bottom: 1rem;
+    }
+    .grid-footer {
+        grid-template-columns: 1fr;
+    }
+    .suscribete {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .suscribete button {
+        width: fit-content;
+        margin: 2vh auto;
+        height: fit-content;
+        justify-content: center;
+    }    
+    .menu-footer1 {
+        margin: 1rem auto 1rem auto;
+    }
+}
+
+
+@media screen and (min-width: 1025px){
+    #burger {
+        display: none;
+    }
+    .iconos-movil {
+        display: none;
+    }
+    .Camperas-small {
+        display: none;
+    }
+    .Sweaters-small {
+        display: none;
+    }
+    .Jeans-small {
+        display: none;
+    }
+    .Remeras-Tops-small {
+        display: none;
+    }
+    .Shorts-small {
+        display: none;
+    }
+    .Interiorlocal_small {
+        display: none;
+    }
+    .item:hover{
+        transform: scale(1.05);
+        overflow: hidden;
+        transition: all 0.5s;
+        background-color: rgba(255, 132, 132, 0.432);
+    }
+}
