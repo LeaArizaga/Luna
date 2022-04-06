@@ -326,6 +326,10 @@ h1{
 .rrss {
     text-align: center;
 }
+.rrss a{
+    text-decoration: none;
+    color: black;
+}
 
 .texto_rrss{
     margin-top: 50px;
