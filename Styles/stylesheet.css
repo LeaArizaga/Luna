@@ -379,6 +379,33 @@ h1{
     width: 12vw;
     height: 13vw;
 }
+.guiatalles{
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+}
+.talles {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+}
+.talles button{
+    margin: 1em;
+    line-height: 2rem;
+    min-width: 3em;
+    background-color: white;
+    border: 2px solid rgba(255, 132, 132, 0.5);
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+}
+.talles-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 20vw;
+}
 
 /* ESTILOS SOBRE NOSOTROS */
 
@@ -545,15 +572,24 @@ line-height: 3vh;
 
 footer {
     background-color: rgb(255, 132, 132, 0.3);
-    padding-bottom: 3rem;
+    padding-bottom: 3em;
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 
-footer button{
+.bt-sus{
     line-height: 4vh;
-    margin: 1rem auto auto auto;
+    margin: 2em auto auto auto;
     display: flex;
     justify-items: center;
+    border: none;
+    background-color: rgb(255, 132, 132);
+    padding: 0.4rem;
+    border-radius: 5px;
+    font-weight: 600;
 
 }
 .grid-footer{
@@ -568,6 +604,7 @@ footer button{
     text-align: center;
     max-width: 400px;
     padding-top: 20px;
+    margin: 2em auto 0.5em auto;
 }
 .menu-footer1 {
     font-size: 0.9rem;
@@ -578,8 +615,8 @@ footer button{
 
 #suscripcion {
     padding-left: 10px;
-    line-height: 4vh;
-    width: 30vw;
+    line-height: 5vh;
+    min-width: 30vw;
 
 }
 .suscribete {
@@ -597,6 +634,16 @@ footer button{
     box-sizing: border-box;
     border-bottom: 2px solid rgb(255, 132, 132);
 }
-
+.talles button:hover{
+    margin: 1em;
+    line-height: 2rem;
+    min-width: 3em;
+    background-color: rgb(255, 132, 132);
+    border: 2px solid rgba(255, 132, 132, 0);
+    color: white;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+}
 
 
