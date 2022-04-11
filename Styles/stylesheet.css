@@ -659,3 +659,7 @@ a {
 .categoria_banner:hover {
     background-color: rgb(255, 132, 132, 0.30);
 }
+
+.categoria_banner:hover> a .vertodos {
+    background-color: rgb(255, 255, 255);
+}

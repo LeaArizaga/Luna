@@ -279,6 +279,48 @@
     .menu-footer1 {
         margin: 1rem auto 1rem auto;
     }
+    .itemseleccionado {
+        grid-template-columns: 50em, 50em;
+        grid-template-rows: repeat(5, 10em);
+    }
+    .itemseleccionado h3{
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+    .fotoprincipal{
+        grid-column: 1/4;
+        grid-row: 1/4;
+        margin: 0;
+    }
+    .fotoproducto {
+        width: 33vw;
+        height: 38vw;   
+    }
+    .foto_secundaria1{
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+    .foto_secundaria2{
+        grid-column: 1/4;
+        grid-row: 4/5;
+    }
+    .foto_secundaria3{
+        grid-column: 1/4;
+        grid-row: 5/6;
+    }
+    .foto1 {
+        width: 33vw;
+        height: 38vw;
+        margin: auto;
+    }
+    .descripcion {
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+    .talles-container {
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }
 }
 
 
