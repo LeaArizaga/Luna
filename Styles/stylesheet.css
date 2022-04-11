@@ -301,7 +301,7 @@ h1{
 }
 .main_products {
     display: flex;
-    margin-bottom: 2%;
+    margin: 0.5%;
     flex-wrap: wrap;
 }
 
@@ -321,6 +321,7 @@ h1{
 
 .item {
     padding: 8px;
+    margin-bottom: 2%;
 }
 
 .rrss {
