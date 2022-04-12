@@ -4,9 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../Styles/stylesheet.css"/>
-        <link rel="stylesheet" href="../Styles/mediaqueries.css"/>
-        <script src="https://kit.fontawesome.com/c94bbc2890.js" crossorigin="anonymous"></script>
+            <!-- Bootstrap -->
+            <link rel="stylesheet" href="../librerias/bootstrap/css/bootstrap.min.css">
+            <!-- Estilos -->
+            <link rel="stylesheet" href="../Styles/stylesheet.css"/>
+            <link rel="stylesheet" href="../Styles/mediaqueries.css"/>
+            <!-- Tipografía -->
+            <script src="https://kit.fontawesome.com/c94bbc2890.js" crossorigin="anonymous"></script>
         <title>Productos</title>
     </head>
     <body>
@@ -44,59 +48,59 @@
             <div class="main_products">
                 <div class="item">
                     <img src="../Assets/Je_Tajo.jpg" alt="Jean Tajo" class="imagen_producto">
-                    <h3> Jean Lula</h3>
+                    <h5 class="text-uppercase"> Jean Lula</h5>
                     <p>Jean chupin tiro alto con tajos en botamanga</p>
                 </div>
                 <div class="item">
                     <img src="../Assets/Je_MomNhn.jpg" alt="Jean Nahana Mom blue" class="imagen_producto">
-                    <h3> Jean Mom Andrea</h3>
+                    <h5 class="text-uppercase"> Jean Mom Andrea</h5>
                     <p>Jean corte mom tiro alto con roturas</p>
                 </div>
                 <div class="item">
                     <img src="../Assets/Je_Kira1.jpg" alt="Jean Kira" class="imagen_producto">
-                        <h3> Jean Kira</h3>
-                        <p>Jean chupin celeste tiro alto</p>
+                    <h5 class="text-uppercase"> Jean Kira</h5>
+                    <p>Jean chupin celeste tiro alto</p>
                 </div>
                 <a href="../Pages/ProductoJean.html"><div class="item">
                     <img src="../Assets/Je_Blanco.jpg" alt="Jean Blanco" class="imagen_producto">    
-                    <h3> Jean Noe</h3>
+                    <h5 class="text-uppercase"> Jean Noe</h5>
                     <p>Jean chupin blanco tiro alto</p>
                 </div></a>
                 <div class="item"> 
                     <img src="../Assets/Je_MomCelesteNhn.jpg" alt="Jean Nahana Mom Celeste" class="imagen_producto">
-                    <h3> Jean Mom Celeste</h3>
+                    <h5 class="text-uppercase"> Jean Mom Celeste</h5>
                     <p>Jean corte mom celeste tiro alto con roturas</p>
                 </div>
                 <div class="item"> 
                     <img src="../Assets/Je-Oxf-tajo.jpg" alt="Jean Thalasso Tajo" class="imagen_producto">
-                    <h3> Jean Oxford Lola</h3>
+                    <h5 class="text-uppercase"> Jean Oxford Lola</h5>
                     <p>Jean Oxford tiro alto con detalle en botamanga</p>
                 </div>
                 <div class="item"> 
                     <img src="../Assets/Je_Engomado.jpg" alt="Jean Engomado" class="imagen_producto">
-                    <h3> Jean Lucrecia</h3>
+                    <h5 class="text-uppercase"> Jean Lucrecia</h5>
                     <p>Jean chupin tiro alto engomago</p>
                 </div>
                 <div class="item"> 
                     <img src="../Assets/Je_Celeste.jpg" alt="Jean Celeste" class="imagen_producto">
-                    <h3> Jean Celeste</h3>
+                    <h5 class="text-uppercase"> Jean Celeste</h5>
                     <p>Jean chupin celeste tiro alto clásico</p>
                 </div>
                 <div class="item"> 
                     <img src="../Assets/Je_RotoAzul.jpg" alt="Jean Lupita Azul roturas" class="imagen_producto">
-                    <h3> Jean Lupita</h3>
+                    <h5 class="text-uppercase"> Jean Lupita</h5>
                     <p>Jean chupin azul con roturas tiro medio</p>
                 </div>
                 <div class="item"> 
                     <img src="../Assets/Je_Negrochupin.jpg" alt="Jean Negro Chupin" class="imagen_producto">
-                    <h3> Jean Zoeh</h3>
+                    <h5 class="text-uppercase"> Jean Zoeh</h5>
                     <p>Jean chupin negro tiro alto clásico</p>
                 </div>
             </div>
 
         </main>
 
-        <footer class="grid-footer"> 
+        <!-- <footer class="grid-footer"> 
             <div>
                 <p class="titulo-suscripcion">Suscríbase GRATIS a nuestro newsletter para recibir las últimas novedades, 
                     productos destacados, noticias, etc...</p>
@@ -123,6 +127,44 @@
                     <a href="../Pages/Contacto.html"><li>Atención al cliente</li></a>
                 </ul>
             </div>
-        </footer>
+        </footer> -->
+        <div class="container-fluid">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-5 offset-1">
+                      <form>
+                        <h5>Suscríbase GRATIS a nuestro newsletter <br> para recibir las últimas novedades, <br> productos destacados, noticias, etc...</h5>
+                        <div class="d-flex w-100 gap-2">
+                          <label for="newsletter1" class="visually-hidden"></label>
+                          <input id="newsletter1" type="text" class="form-control" placeholder="Ingresa tu e-mail aquí">
+                          <button class="btn btn-primary" type="button">Subscribete</button>
+                        </div>
+                      </form>
+                    </div>
+    
+                    <div class="col-2">
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cómo comprar ONLINE</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Métodos de Pago</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Envío</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cambios y devoluciones</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Guía de Talles</a></li>
+                    </ul>
+                    </div>
+          
+                    <div class="col-2">
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">¿Dónde estamos?</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trabaja con nosotros</a></li>
+                        <li class="nav-item mb-2"><a href="../Pages/Contacto.html" class="nav-link p-0 text-muted">Atención al cliente</a></li>
+                        <li class="nav-item mb-2"><a href="../Pages/Sobre_nosotros.html" class="nav-link p-0 text-muted">Sobre Nosotros</a></li>
+                    </ul>
+                    </div>
+              </div>
+            </footer>
+          </div>
+        <script src="../librerias/bootstrap/js/bootstrap.min.js"> </script>
+
+
     </body>
 </html>

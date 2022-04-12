@@ -4,9 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../Styles/stylesheet.css"/>
-        <link rel="stylesheet" href="../Styles/mediaqueries.css"/>
-        <script src="https://kit.fontawesome.com/c94bbc2890.js" crossorigin="anonymous"></script>
+            <!-- Bootstrap -->
+            <link rel="stylesheet" href="../librerias/bootstrap/css/bootstrap.min.css">
+            <!-- Estilos -->
+            <link rel="stylesheet" href="../Styles/stylesheet.css"/>
+            <link rel="stylesheet" href="../Styles/mediaqueries.css"/>
+            <!-- Tipografía -->
+            <script src="https://kit.fontawesome.com/c94bbc2890.js" crossorigin="anonymous"></script>
         <title>Inicio de Sesion</title>
         </head>
     <body>
@@ -51,7 +55,7 @@
             </p> 
         </main>
 
-        <footer class="grid-footer"> 
+        <!-- <footer class="grid-footer"> 
             <div>
                 <p class="titulo-suscripcion">Suscríbase GRATIS a nuestro newsletter para recibir las últimas novedades, 
                     productos destacados, noticias, etc...</p>
@@ -78,6 +82,43 @@
                     <a href="../Pages/Contacto.html"><li>Atención al cliente</li></a>
                 </ul>
             </div>
+        </footer> -->
+
+    <div class="container-fluid">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-5 offset-1">
+                  <form>
+                    <h5>Suscríbase GRATIS a nuestro newsletter <br> para recibir las últimas novedades, <br> productos destacados, noticias, etc...</h5>
+                    <div class="d-flex w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden"></label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Ingresa tu e-mail aquí">
+                      <button class="btn btn-primary" type="button">Subscribete</button>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="col-2">
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cómo comprar ONLINE</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Métodos de Pago</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Envío</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cambios y devoluciones</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Guía de Talles</a></li>
+                </ul>
+                </div>
+      
+                <div class="col-2">
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">¿Dónde estamos?</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trabaja con nosotros</a></li>
+                    <li class="nav-item mb-2"><a href="../Pages/Contacto.html" class="nav-link p-0 text-muted">Atención al cliente</a></li>
+                    <li class="nav-item mb-2"><a href="../Pages/Sobre_nosotros.html" class="nav-link p-0 text-muted">Sobre Nosotros</a></li>
+                </ul>
+                </div>
+          </div>
         </footer>
+      </div>
+    <script src="../librerias/bootstrap/js/bootstrap.min.js"> </script>
     </body>
 </html>
