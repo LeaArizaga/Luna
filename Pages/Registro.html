@@ -40,7 +40,51 @@
         </header>
 
         <main>
-            <p class="registro_titulo">
+
+            <form action="" class="Inicio_sesion_registro"> 
+                <h5>¡Registrate GRATIS para realizar con tu compra!</h5>
+                <form class="row g-3">
+                    <div class="col-md-4">
+                      <label for="validationServer01" class="form-label">Nombre</label>
+                      <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationServer02" class="form-label">Apellido</label>
+                      <input type="text" class="form-control is-valid" id="validationServer02" value="" required>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationServerUsername" class="form-label">Username</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                        <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                        <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                          Elige un nombre de usuario.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationServer02" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control is-valid" id="validationServer02" value="" required>
+                      </div>
+                      <div class="col-md-4">
+                        <label for="validationServer02" class="form-label">Confirmar contraseña</label>
+                        <input type="password" class="form-control is-valid" id="validationServer02" value="" required>
+                      </div>
+                
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                          Aceptar terminos y condiciones
+                        </label>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg">Registrarme</button>
+                  </form>
+
+            </form>
+
+            <!-- <p class="registro_titulo">
                 ¡Registrate GRATIS para finalizar con tu compra!
             </p>
             <form class="form_registro">
@@ -57,7 +101,7 @@
             
             <p>¿Ya tienes cuenta? 
             <a href="./inicio_sesion.html">INGRESA AQUI</a>.
-            </p> 
+            </p>  -->
         </main>
 
         <!-- <footer class="grid-footer"> 

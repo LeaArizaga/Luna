@@ -303,10 +303,18 @@ h1{
     flex-wrap: wrap;
 }
 
-.imagen_producto{
-    width: 18vw;
+.card-img-top{
+    width: 17rem;
     height: 23vw;
     padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    border: none;
+    margin: 0.5em;
+    padding: 8px;
+    color: black;
 }
 .fa-sliders {
     padding-right: 2rem;
@@ -315,12 +323,6 @@ h1{
     padding: auto;
     display: flex;
     justify-content: space-between;
-}
-
-.item {
-    padding: 8px;
-    margin-bottom: 2%;
-    color: black;
 }
 
 .rrss {
@@ -658,7 +660,9 @@ a {
 .categoria_banner:hover> a .vertodos {
     background-color: rgb(255, 255, 255);
 }
-
+.card:hover{
+    background-color: rgb(255, 255, 255, 0.30);    
+} 
 /* BOOTSTRAP */
 .col-2 {
     margin: auto;
@@ -681,4 +685,19 @@ h5{
 }
 .carousel-caption {
     margin-bottom: 2em;
+}
+.Inicio_sesion_registro {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 5vh auto;
+}
+.btn-lg {
+    margin-top: 2vh;
+}
+.sinregistro {
+    width: 40%;
+    margin: 1vh auto;
+    display: flex;
+    justify-content: center;
 }
