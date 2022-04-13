@@ -135,6 +135,11 @@
         justify-content: center;
         align-items: center;
     }
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px){
