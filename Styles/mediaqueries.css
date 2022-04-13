@@ -140,6 +140,10 @@
         flex-direction: column;
         justify-items: center;
     }
+    .card-img-top {
+        min-height: 18em;
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px){
@@ -341,6 +345,10 @@
     .talles-container {
         grid-column: 4/5;
         grid-row: 3/4;
+    }
+    .card-img-top {
+        min-height: 18em;
+        margin: auto;
     }
 }
 
