@@ -15,6 +15,9 @@
   .buscador {
       display: none;
   }
+  .logoybuscador{
+    padding: none;
+}
   header{
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
@@ -67,7 +70,7 @@
     }
     .categoria_banner_small{
         width: 60vw;
-        height: 20vw;
+        height: 22vw;
         margin: auto;
         background-color: rgb(255, 255, 255, 0.80);
         display: flex;
@@ -82,8 +85,9 @@
     }
     .vertodos {
         display: flex;
-        margin: auto auto 2vw auto;
+        margin: auto;
         height: 2rem;
+        line-height: 1rem;
     }
     .masproductos {
         width: 70vw;
@@ -144,11 +148,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .d-flex {
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
     }
     .card-img-top {
         min-height: 18em;

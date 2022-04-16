@@ -15,19 +15,16 @@
         </head>
     <body>
         <header>
-            <div class="logoybuscador">
-                <i class="fa-solid fa-bars" id="burger"></i>
+        
+            <div class="logoybuscador-desk">
                 <img src="../Assets/logo-luna-vector.svg" alt="Logo Luna" class="logo-luna-vector">
             </div>
             <form class="buscador">
                 <label for="buscador"></label><br>
                 <input type="text" id="buscador" name="buscador" placeholder=" Busca un producto aquí">
-                <button type="submit"><i class="fa-solid fa-magnifying-glass" id="lupa"></i></i></button>
+                <button type="submit"><i class="fa-solid fa-magnifying-glass" id="lupa"></i></button>
             </form>      
-            <div class="iconos-movil">
-                <i class="fa-solid fa-magnifying-glass" id="buscadormini"></i>
-                <i class="fa-solid fa-user" id="userlogin"></i>
-            </div>  
+    
             <div class="menu-navegador">
                 <ul class="menu-principal">
                     <a href="../index.html"><li class="menu_item">Home</li></a>
@@ -37,6 +34,41 @@
                     <a href="../Pages/Inicio_sesion.html"><li class="menu_item">Iniciar sesión</li></a>
                 </ul>
             </div>
+    
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="logoybuscador">
+                        <img src="../Assets/logo-luna-vector.svg" alt="Logo Luna" class="logo-luna-vector">
+                    </div>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Busca un producto" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass" id="lupa"></i></button>
+                    </form>
+            
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Pages/Categorias.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Pages/Sobre_nosotros.html">Sobre nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Pages/Contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Pages/Inicio_sesion.html">Iniciar sesión</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
 
         <main>

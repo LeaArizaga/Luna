@@ -507,12 +507,14 @@ h1{
     font-size: 1.5rem;
     font-weight: 700;
 }
-
-.formulario_contacto input{
+.formulario_contacto input {
     width: 100%;
-    height: 1.6vw;
+}
+
+#nombre #email {
+    width: 100%;
+    line-height: 1.6vw;
     margin-bottom: 5vh;
-    margin: auto;
 }
 #cuerpomensaje{
     width: 100%;
