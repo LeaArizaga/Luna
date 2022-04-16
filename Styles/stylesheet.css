@@ -325,6 +325,9 @@ h1{
     padding: 8px;
     color: black;
 }
+.card-body {
+    background-color: white;
+}
 .fa-sliders {
     padding-right: 2.5em;
 }
@@ -359,13 +362,33 @@ h1{
 }
 
 /* ESTILOS PRODUCTO SELECCIONADO */
-.itemseleccionado {
+/* .itemseleccionado {
     display: grid;
     grid-template-columns: repeat(3, 2fr) 7fr;
     grid-template-rows: repeat(5, 15vh), 2fr;
     justify-items: center;
     margin: 2em;
     min-width: 80vh;
+} */
+.itemseleccionado {
+    display: flex;
+}
+.fotos-producto {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 4fr 2fr;
+    margin: 1em auto auto 4em;
+    row-gap: 0.5em;
+    column-gap: 0.5em;
+}
+.detalles-producto {
+    display: flex;
+    flex-direction: column;
+    margin: 3em auto auto 1em;
+}
+.descripcion p {
+    text-align: left;
+    margin: 1em;
 }
 .fotoprincipal{
     grid-column: 1/4;
@@ -400,8 +423,7 @@ h1{
 }
 .talles {
     display: flex;
-    justify-content: space-around;
-    margin: 1em auto 1em auto;
+    justify-content: space-evenly;
     min-width: 30vw;
 }
 .talles button{
@@ -422,6 +444,22 @@ h1{
     grid-column: 4/5;
     grid-row: 3/4;
     flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+.talles-container p {
+    text-align: left;
+    margin: 1em;
+}
+.guiatalles {
+    text-decoration: underline;
+}
+.cantidad p{
+    text-align: left;
+    margin: auto 1em auto 1em;
+}
+.cantidad {
+    margin-bottom: 2em;
+    display: flex;
 }
 
 /* ESTILOS SOBRE NOSOTROS */
@@ -673,8 +711,11 @@ a {
     background-color: rgb(255, 255, 255);
 }
 .card:hover{
-    background-color: rgb(255, 255, 255, 0.30);    
+    background-color: rgb(255, 132, 132, 0.20);    
 } 
+.card:hover>.card-body {
+    background-color: rgb(255, 132, 132, 0.2);
+}
 /* BOOTSTRAP */
 .col-2 {
     margin: auto;
@@ -705,7 +746,8 @@ h5{
     margin: 5vh auto;
 }
 .btn-lg {
-    margin-top: 2vh;
+    margin-top: 3vh;
+    max-width: 25vw;  
 }
 .sinregistro {
     width: 40%;
