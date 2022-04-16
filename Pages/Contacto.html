@@ -82,17 +82,22 @@
                     <p> Monte Grande </p>
                 </section>
             
-                <form class="formulario_contacto">
+                <div class="formulario_contacto">
                     <h3 class="titulo_contacto">¡Contáctate con nosotros!</h3>
-                    <label for="email">Nombre</label><br>
-                    <input type="text" id="nombre" name="nombre"><br>
-                    <label for="email">Email</label><br>
-                    <input type="text" id="email" name="email"><br>
-                    <label for="cuerpomensaje">Mensaje</label><br>
-                    <textarea name="cuerpomensaje" id="cuerpomensaje" cols="90" rows="10"></textarea><br>
-                    <button class="botoncontacto">Enviar</button>
-                </form>
-                <br>
+                    <div class="mb-3 required">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa aqui tu nombre">
+                    </div>
+                    <div class="mb-3 required">
+                        <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa aqui tu e-mail">
+                    </div>
+                    <div class="mb-3 required">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe aqui tu mensaje"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg"> Enviar mensaje </button>
+                </div>
 
             </div>
 

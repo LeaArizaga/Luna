@@ -540,6 +540,7 @@ h1{
 }
 .formulario_contacto{
     margin: auto 2rem auto 2rem;
+    width: 60vw;
 }
 .titulo_contacto{
     font-size: 1.5rem;
@@ -549,14 +550,6 @@ h1{
     width: 100%;
 }
 
-#nombre #email {
-    width: 100%;
-    line-height: 1.6vw;
-    margin-bottom: 5vh;
-}
-#cuerpomensaje{
-    width: 100%;
-}
 .formulario_contacto label{
     font-size: 1.2rem;
     text-transform: uppercase;
