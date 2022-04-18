@@ -561,70 +561,6 @@ h1{
     font-size: 1.2rem;
     text-transform: uppercase;
 }
-.botoncontacto{
-    height: 2rem;
-    width: 20vw;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: rgb(255, 132, 132, 0.8);
-    border: none;
-    text-transform: uppercase;
-    font-size: 1rem;
-}
-
-/* ESTILOS INCIAR SESION Y REGISTRO */
-.iniciosesion_titulo {
-    line-height: 3vh;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-.registro_titulo{
-    line-height: 3vh;
-    text-transform: normal;
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-.form_iniciosesion{
-    display: flex;
-    flex-direction: column;
-    margin: 5vw 35vw auto 35vw;
-}
-.form_registro{
-    display: flex;
-    flex-direction: column;
-    margin: 5vw 35vw auto 35vw;
-}
-.form_registro label{
-line-height: 3vh;
-    margin: auto 0 0.5rem 0;
-}
-.form_iniciosesion label{
-    line-height: 2vh;
-    margin: auto 0 auto 0;
-}
-.form_iniciosesion input{
-    line-height: 4vh;
-}
-.form_registro input{
-    line-height: 4vh;
-}
-.form_iniciosesion button{
-    height: 2rem;
-    width: 20vw;
-    border: none;
-    background-color: rgb(255, 132, 132, 0.8);
-    margin: 1rem auto 2rem auto;
-}
-.form_registro button{
-    height: 2rem;
-    min-width: 20vw;
-    border: none;
-    background-color: rgb(255, 132, 132, 0.8);
-    margin: 1rem auto 2rem auto;
-    text-transform: uppercase;
-}
 /* ESTILOS FOOTER */
 
 footer {
@@ -638,53 +574,6 @@ a {
     color: black;
 }
 
-.bt-sus{
-    line-height: 4vh;
-    margin: 2em auto auto auto;
-    display: flex;
-    justify-items: center;
-    border: none;
-    background-color: rgb(255, 132, 132);
-    padding: 0.4rem;
-    border-radius: 5px;
-    font-weight: 600;
-
-}
-.grid-footer{
-    display: grid;
-    grid-template-columns: 6fr 2fr 2fr 1fr;
-    grid-template-rows: auto;
-    justify-items: center;
-}
-.titulo-suscripcion {
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    max-width: 400px;
-    padding-top: 20px;
-    margin: 2em auto 0.5em auto;
-}
-.menu-footer1 {
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    margin: 3rem auto 1rem auto;
-    padding: 0;
-}
-
-#suscripcion {
-    padding-left: 10px;
-    line-height: 5vh;
-    min-width: 30vw;
-
-}
-.suscribete {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.contacto{
-    font-size: 1.5rem;
-}
 /* TRANSFORMACIONES Y ANIMACIONES */
 
 .menu_item:hover{
