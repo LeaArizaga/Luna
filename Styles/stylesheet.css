@@ -384,11 +384,21 @@ h1{
 .detalles-producto {
     display: flex;
     flex-direction: column;
-    margin: 3em auto auto 1em;
+    margin: 2vw auto auto 1vw;
 }
+.nombre-producto {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-heart {
+    font-size: 2rem;
+    padding-right: 1em;
+    color: rgb(199, 199, 199);
+}
+
 .descripcion p {
     text-align: left;
-    margin: 1em;
+    margin: 1em auto;
 }
 .fotoprincipal{
     grid-column: 1/4;
@@ -427,9 +437,6 @@ h1{
     min-width: 30vw;
 }
 .talles button{
-    margin: 1em;
-    line-height: 2rem;
-    min-width: 3em;
     background-color: white;
     border: 2px solid rgba(255, 132, 132, 0.5);
     border-radius: 0.3rem;
@@ -448,14 +455,14 @@ h1{
 }
 .talles-container p {
     text-align: left;
-    margin: 1em;
+
 }
 .guiatalles {
     text-decoration: underline;
 }
 .cantidad p{
     text-align: left;
-    margin: auto 1em auto 1em;
+    margin: auto 1em auto auto;
 }
 .cantidad {
     margin-bottom: 2em;
@@ -709,6 +716,9 @@ a {
 .card:hover>.card-body {
     background-color: rgb(255, 132, 132, 0.2);
 }
+.fa-heart:hover {
+    color: rgb(255, 132, 132);
+}
 /* BOOTSTRAP */
 .col-2 {
     margin: auto;
@@ -739,8 +749,8 @@ h5{
     margin: 5vh auto;
 }
 .btn-lg {
-    margin-top: 3vh;
-    max-width: 25vw;  
+    margin: 3vh auto auto auto;
+    width: 30vw; 
 }
 .sinregistro {
     width: 40%;
