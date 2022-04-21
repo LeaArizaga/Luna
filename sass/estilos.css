@@ -52,6 +52,11 @@ header .menu_item {
   line-height: 2vw;
   border-bottom: 2px solid rgba(255, 132, 132, 0);
 }
+header .menu_item:hover {
+  color: rgb(255, 132, 132);
+  box-sizing: border-box;
+  border-bottom: 2px solid rgb(255, 132, 132);
+}
 header .buscador button {
   padding: 2px;
   margin: 0 2vh 2vh 1vh;
@@ -136,6 +141,9 @@ p {
   display: flex;
   flex-direction: column;
 }
+.Jeans .categoria_banner:hover, .Sweaters .categoria_banner:hover, .Camperas .categoria_banner:hover, .Shorts .categoria_banner:hover, .Remeras-Tops .categoria_banner:hover {
+  background-color: rgba(255, 132, 132, 0.3);
+}
 .Jeans .categoria_banner p, .Sweaters .categoria_banner p, .Camperas .categoria_banner p, .Shorts .categoria_banner p, .Remeras-Tops .categoria_banner p {
   font-weight: bold;
   font-size: 3rem;
@@ -143,7 +151,7 @@ p {
   text-transform: uppercase;
   margin: 3vh 0 1vh 0;
 }
-.Jeans .categoria_banner .vertodos, .Sweaters .categoria_banner .vertodos, .Camperas .categoria_banner .vertodos, .Shorts .categoria_banner .vertodos, .Remeras-Tops .categoria_banner .vertodos {
+.Jeans .categoria_banner a .vertodos, .Sweaters .categoria_banner a .vertodos, .Camperas .categoria_banner a .vertodos, .Shorts .categoria_banner a .vertodos, .Remeras-Tops .categoria_banner a .vertodos {
   display: flex;
   margin: auto auto 1rem auto;
   min-height: 4vh;
@@ -157,6 +165,9 @@ p {
   border-radius: 5px;
   border: none;
   padding: 8px;
+}
+.Jeans .categoria_banner a .vertodos:hover, .Sweaters .categoria_banner a .vertodos:hover, .Camperas .categoria_banner a .vertodos:hover, .Shorts .categoria_banner a .vertodos:hover, .Remeras-Tops .categoria_banner a .vertodos:hover {
+  background-color: rgb(255, 255, 255);
 }
 
 .Jeans-small, .Remeras-Tops-small, .Camperas-small, .Shorts-small, .Sweaters-small {
@@ -257,8 +268,17 @@ p {
   padding: 8px;
   color: black;
 }
+.main_products .card:hover {
+  background-color: rgba(255, 132, 132, 0.2);
+}
+.main_products .card a {
+  color: black;
+}
 .main_products .card-body {
   background-color: white;
+}
+.main_products .card-body:hover {
+  background-color: rgba(255, 132, 132, 0.2);
 }
 
 /* ESTILOS PRODUCTO SELECCIONADO */
@@ -330,6 +350,9 @@ p {
   padding-right: 1em;
   color: rgb(199, 199, 199);
 }
+.detalles-producto .nombre-producto .fa-heart:hover {
+  color: rgb(255, 132, 132);
+}
 .detalles-producto .descripcion p {
   text-align: left;
   margin: 1em auto;
@@ -355,6 +378,17 @@ p {
 .detalles-producto .talles-container .talles button {
   background-color: white;
   border: 2px solid rgba(255, 132, 132, 0.5);
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+}
+.detalles-producto .talles-container .talles button:hover {
+  margin: 1em;
+  line-height: 2rem;
+  min-width: 3em;
+  background-color: rgb(255, 132, 132);
+  border: 2px solid rgba(255, 132, 132, 0);
+  color: white;
   border-radius: 0.3rem;
   display: flex;
   justify-content: center;
@@ -475,44 +509,6 @@ a {
 }
 
 /* TRANSFORMACIONES Y ANIMACIONES */
-.menu_item:hover {
-  color: rgb(255, 132, 132);
-  box-sizing: border-box;
-  border-bottom: 2px solid rgb(255, 132, 132);
-}
-
-.talles button:hover {
-  margin: 1em;
-  line-height: 2rem;
-  min-width: 3em;
-  background-color: rgb(255, 132, 132);
-  border: 2px solid rgba(255, 132, 132, 0);
-  color: white;
-  border-radius: 0.3rem;
-  display: flex;
-  justify-content: center;
-}
-
-.categoria_banner:hover {
-  background-color: rgba(255, 132, 132, 0.3);
-}
-
-.categoria_banner:hover > a .vertodos {
-  background-color: rgb(255, 255, 255);
-}
-
-.card:hover {
-  background-color: rgba(255, 132, 132, 0.2);
-}
-
-.card:hover > .card-body {
-  background-color: rgba(255, 132, 132, 0.2);
-}
-
-.fa-heart:hover {
-  color: rgb(255, 132, 132);
-}
-
 /* BOOTSTRAP */
 .col-2 {
   margin: auto;
