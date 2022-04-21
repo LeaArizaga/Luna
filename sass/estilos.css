@@ -1,0 +1,560 @@
+/*BODY*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: auto;
+  margin: 0;
+}
+
+/*HEADER*/
+header {
+  display: grid;
+  grid-template-columns: 330px auto;
+  grid-template-rows: auto auto;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+header .logo-luna-vector {
+  height: 15vh;
+  margin: auto;
+}
+header .buscador {
+  display: flex;
+  margin: auto 2vh 4vh auto;
+  align-self: flex-end;
+}
+header #buscador {
+  height: 2rem;
+  width: 300px;
+  margin: 0 1vh 2vh 1vh;
+  border-color: rgba(255, 132, 132, 0.2);
+  border-radius: 5px;
+  color: gray;
+  font-style: italic;
+  padding-left: 10px;
+}
+header .menu-navegador {
+  grid-column: 2/3;
+}
+header .menu-principal {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  max-width: 60vw;
+  margin: auto;
+  font-size: 1.1rem;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+header .menu_item {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+  line-height: 2vw;
+  border-bottom: 2px solid rgba(255, 132, 132, 0);
+}
+header .buscador button {
+  padding: 2px;
+  margin: 0 2vh 2vh 1vh;
+  width: 10vh;
+  border: none;
+  background-color: rgba(255, 132, 132, 0.8);
+  color: white;
+  border-radius: 5px;
+}
+header #lupa {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: white;
+}
+header .navbar {
+  grid-row: 1/3;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: none;
+}
+header .bg-white {
+  grid-column: 1/4;
+}
+header .nav-item {
+  text-transform: uppercase;
+  font-size: 1rem;
+  width: auto;
+}
+
+/*CAROUSEL*/
+.carousel-caption {
+  margin-bottom: 2em;
+}
+
+h1 {
+  margin-left: 2%;
+}
+
+/* ESTILOS MAIN */
+a {
+  text-decoration: none;
+}
+
+main {
+  margin-bottom: 5%;
+  overflow: hidden;
+}
+
+h3 {
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+p {
+  text-align: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+/* ESTILOS CATEGORIAS */
+.Jeans, .Sweaters, .Camperas, .Shorts, .Remeras-Tops {
+  background-image: url("../Assets/banner_jeans-ok.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 25vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.Jeans .categoria_banner, .Sweaters .categoria_banner, .Camperas .categoria_banner, .Shorts .categoria_banner, .Remeras-Tops .categoria_banner {
+  width: 50vw;
+  min-height: 10vw;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+}
+.Jeans .categoria_banner p, .Sweaters .categoria_banner p, .Camperas .categoria_banner p, .Shorts .categoria_banner p, .Remeras-Tops .categoria_banner p {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3vh 0 1vh 0;
+}
+.Jeans .categoria_banner .vertodos, .Sweaters .categoria_banner .vertodos, .Camperas .categoria_banner .vertodos, .Shorts .categoria_banner .vertodos, .Remeras-Tops .categoria_banner .vertodos {
+  display: flex;
+  margin: auto auto 1rem auto;
+  min-height: 4vh;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(255, 132, 132, 0.8);
+  color: black;
+  font-weight: 500;
+  letter-spacing: 0.1vh;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+}
+
+.Jeans-small, .Remeras-Tops-small, .Camperas-small, .Shorts-small, .Sweaters-small {
+  background-image: url("../Assets/banner_jeans-ok.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 45vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Shorts {
+  background-image: url("../Assets/banner_shorts_ok.jpg");
+}
+
+.Shorts-small {
+  background-image: url("../Assets/banner_shorts_small.jpg");
+}
+
+.Remeras-Tops {
+  background-image: url("../Assets/banner_remera_ok.jpg");
+}
+
+.Remeras-Tops-small {
+  background-image: url("../Assets/banner_remera_small.jpg");
+}
+
+.Sweaters {
+  background-image: url("../Assets/banner-sweater-small.jpg");
+}
+
+.Sweaters-small {
+  background-image: url("../Assets/banner-sweater-small.jpg");
+}
+
+.Camperas {
+  background-image: url("../Assets/Banner_Campera_ok.jpg");
+}
+
+.Camperas-small {
+  background-image: url("../Assets/Banner_Campera_small.jpg");
+}
+
+.btmasprod {
+  display: flex;
+  justify-content: center;
+}
+
+.rrss {
+  text-align: center;
+}
+.rrss a {
+  text-decoration: none;
+  color: black;
+}
+.rrss .texto_rrss {
+  margin-top: 50px;
+  margin-bottom: auto;
+  font-size: 2rem;
+}
+.rrss .fa-brands {
+  font-size: 3rem;
+  padding: 16px;
+}
+
+/*CATEGORIAS JEANS*/
+.categorias {
+  padding: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 2em auto 3em auto;
+}
+.categorias .fa-sliders {
+  padding-right: 2.5em;
+  font-size: 2rem;
+  margin: auto 1vh auto 1vh;
+}
+
+.main_products {
+  display: flex;
+  margin: 0.5%;
+  flex-wrap: wrap;
+}
+.main_products .card-img-top {
+  width: 17rem;
+  height: 23vw;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: center;
+}
+.main_products .card {
+  border: none;
+  margin: 0.5em;
+  padding: 8px;
+  color: black;
+}
+.main_products .card-body {
+  background-color: white;
+}
+
+/* ESTILOS PRODUCTO SELECCIONADO */
+/* .itemseleccionado {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr) 7fr;
+    grid-template-rows: repeat(5, 15vh), 2fr;
+    justify-items: center;
+    margin: 2em;
+    min-width: 80vh;
+} */
+/* PRODUCTO SELECCIONADO */
+.itemseleccionado {
+  display: flex;
+}
+.itemseleccionado .fotos-producto {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: 4fr 2fr;
+  margin: 1em auto auto 4em;
+  row-gap: 0.5em;
+  column-gap: 0.5em;
+}
+.itemseleccionado .fotos-producto .fotoprincipal {
+  grid-column: 1/4;
+  grid-row: 1/6;
+  margin: auto;
+}
+.itemseleccionado .fotos-producto .fotoprincipal .fotoproducto {
+  width: 29vw;
+  height: 35vw;
+}
+.itemseleccionado .fotos-producto .foto_secundaria1 {
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+.itemseleccionado .fotos-producto .foto_secundaria1 .foto1 {
+  width: 12vw;
+  height: 13vw;
+}
+.itemseleccionado .fotos-producto .foto_secundaria2 {
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+.itemseleccionado .fotos-producto .foto_secundaria2 .foto1 {
+  width: 12vw;
+  height: 13vw;
+}
+.itemseleccionado .fotos-producto .foto_secundaria3 {
+  grid-column: 3/4;
+  grid-row: 6/7;
+}
+.itemseleccionado .fotos-producto .foto_secundaria3 .foto1 {
+  width: 12vw;
+  height: 13vw;
+}
+
+.detalles-producto {
+  display: flex;
+  flex-direction: column;
+  margin: 2vw auto auto 1vw;
+}
+.detalles-producto .nombre-producto {
+  display: flex;
+  justify-content: space-between;
+}
+.detalles-producto .nombre-producto .fa-heart {
+  font-size: 2rem;
+  padding-right: 1em;
+  color: rgb(199, 199, 199);
+}
+.detalles-producto .descripcion p {
+  text-align: left;
+  margin: 1em auto;
+}
+.detalles-producto .talles-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  min-width: 30vw;
+  grid-column: 4/5;
+  grid-row: 3/4;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+}
+.detalles-producto .talles-container p {
+  text-align: left;
+}
+.detalles-producto .talles-container .talles {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 30vw;
+}
+.detalles-producto .talles-container .talles button {
+  background-color: white;
+  border: 2px solid rgba(255, 132, 132, 0.5);
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+}
+.detalles-producto .guiatalles {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  text-decoration: underline;
+}
+.detalles-producto .cantidad {
+  margin-bottom: 2em;
+  display: flex;
+}
+.detalles-producto .cantidad p {
+  text-align: left;
+  margin: auto 1em auto auto;
+}
+
+/* SOBRE NOSOTROS */
+.sobrenosotros {
+  display: flex;
+  margin: 2rem auto auto auto;
+}
+.sobrenosotros .sobrenosotros_texto {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin: 1rem 2rem 1rem 2rem;
+  width: 50vw;
+}
+.sobrenosotros .sobrenosotros_texto .historia {
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.sobrenosotros .sobrenosotros_texto .textohistoria {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin: auto;
+  text-align: center;
+  word-spacing: 2px;
+  line-height: 2rem;
+}
+.sobrenosotros .Interiorlocal {
+  width: 50%;
+  max-height: 100%;
+  display: flex;
+  justify-content: right;
+  margin: auto;
+  filter: sepia(50%);
+}
+.sobrenosotros .Interiorlocal_small {
+  width: 50vw;
+  display: flex;
+  justify-content: right;
+  margin: auto;
+  filter: sepia(50%);
+}
+
+/* CONTACTO */
+.contacto {
+  display: flex;
+}
+.contacto .horarios {
+  background-image: url(../Assets/denim2.png);
+  width: 80vh;
+  height: 70vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem 3rem auto 3rem;
+}
+.contacto .horarios .titulo_horarios {
+  text-decoration: underline;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin: 0;
+}
+.contacto .horarios p {
+  font-size: 1.5rem;
+  margin: 0;
+  line-height: 2em;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.contacto .formulario_contacto {
+  margin: auto 2rem auto 2rem;
+  width: 60vw;
+}
+.contacto .formulario_contacto .titulo_contacto {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 2em auto 2em auto;
+}
+.contacto .formulario_contacto input {
+  width: 100%;
+}
+.contacto .formulario_contacto label {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+/* ESTILOS FOOTER */
+footer {
+  background-color: rgba(255, 132, 132, 0.3);
+  padding-bottom: 3em;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* TRANSFORMACIONES Y ANIMACIONES */
+.menu_item:hover {
+  color: rgb(255, 132, 132);
+  box-sizing: border-box;
+  border-bottom: 2px solid rgb(255, 132, 132);
+}
+
+.talles button:hover {
+  margin: 1em;
+  line-height: 2rem;
+  min-width: 3em;
+  background-color: rgb(255, 132, 132);
+  border: 2px solid rgba(255, 132, 132, 0);
+  color: white;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.categoria_banner:hover {
+  background-color: rgba(255, 132, 132, 0.3);
+}
+
+.categoria_banner:hover > a .vertodos {
+  background-color: rgb(255, 255, 255);
+}
+
+.card:hover {
+  background-color: rgba(255, 132, 132, 0.2);
+}
+
+.card:hover > .card-body {
+  background-color: rgba(255, 132, 132, 0.2);
+}
+
+.fa-heart:hover {
+  color: rgb(255, 132, 132);
+}
+
+/* BOOTSTRAP */
+.col-2 {
+  margin: auto;
+}
+
+.btn-primary {
+  background-color: rgb(255, 132, 132);
+}
+
+h5 {
+  text-align: center;
+  line-height: 1.5rem;
+  margin-bottom: 1em;
+}
+
+.col-2 {
+  margin-top: 2em;
+}
+
+.Inicio_sesion_registro {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: 5vh auto;
+}
+
+.btn-lg {
+  margin: 3vh auto auto auto;
+  width: 30vw;
+}
+
+.sinregistro {
+  width: 40%;
+  margin: 1vh auto;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-outline-success {
+  width: fit-content;
+  background-color: rgb(255, 132, 132);
+  border: none;
+}
+
+/*# sourceMappingURL=estilos.css.map */

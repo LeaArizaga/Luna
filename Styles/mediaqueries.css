@@ -12,11 +12,8 @@
   .menu-navegador{
       display: none;
   }
-  .buscador {
-      display: none;
-  }
   .logoybuscador{
-    padding: none;
+      padding: none;
 }
   header{
     display: grid;
@@ -28,6 +25,7 @@
     height: 7vh;
     margin: auto;
     display: block;
+
     }  
     #burger {
     margin: auto;
@@ -75,7 +73,7 @@
         background-color: rgb(255, 255, 255, 0.80);
         display: flex;
         flex-direction: column;
-}
+    }
     .titulo_banner{
         font-weight: bold;
         font-size: 2rem;
@@ -104,7 +102,7 @@
         font-size: 2rem;
         padding: 16px;
     }
-    .Interiorlocal{
+    .sobrenosotros .Interiorlocal{
         display: none;    
     }
     .imagen_producto{
@@ -192,12 +190,16 @@
     .detalles-producto {
         margin-right: 1em;
     }
+    header .buscador {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 991.98px){
-    .header-desktop{
+    .logoybuscador-desk{
         display: none;
     }
+    
     .logoybuscador{
         padding-right: 35vw;
     }
@@ -220,7 +222,7 @@
     .menu-navegador{
         display: none;
     }
-    .buscador {
+    header .buscador {
         display: none;
     }
     header{
@@ -326,7 +328,7 @@
         font-size: 2rem;
         padding: 16px;
     }
-    .Interiorlocal{
+    .sobrenosotros .Interiorlocal{
         display: none;    
     }
     .imagen_producto{
@@ -475,7 +477,7 @@
     .Shorts-small {
         display: none;
     }
-    .Interiorlocal_small {
+    .sobrenosotros .Interiorlocal_small {
         display: none;
     }
     .card-img-top:hover{
@@ -483,7 +485,7 @@
         overflow: hidden;
         transition: all 0.5s;
     }
-    .navbar {
+    header .navbar {
         display: none;
     }
     .card-img-top {

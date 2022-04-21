@@ -25,9 +25,6 @@ header{
     grid-column: 1/4;
     display: flex;
 }
-/* .header-main{
-    display: flex;
-} */
 .menu-navegador{
     grid-column: 2/3;
 }
@@ -47,7 +44,6 @@ header{
     color: black;
     line-height: 2vw;
     border-bottom: 2px solid rgba(255, 132, 132, 0);
-
 }
 .buscador{
     display: flex;
