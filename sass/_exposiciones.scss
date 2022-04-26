@@ -1,0 +1,71 @@
+@import "colores";
+
+// Declaración de variables
+
+//MIXIN
+@mixin Images ($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ .picproducto {
+    @include Images(29vw, 35vw);
+ }
+ .fotosecundaria {
+    @include Images(12vw, 13vw)
+ }
+
+//MAP
+ $redes: (
+        instagram: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%),
+        facebook:  #3b5998
+); 
+@each $red, $color in $redes {
+    @if $red == "instagram"{
+        .logo--#{$red}{
+            background: $color;
+            color: transparent;
+            -webkit-background-clip: text;
+        }
+    } @else{
+        .logo--#{$red} {
+            color: $color;
+        }
+    }
+}
+
+//MAP-GET
+
+$estilos-talles: (
+  bkg-color: white,
+  borde: 2px solid $color-primario50medium,
+  borde-rad: 0.3rem,
+  dplay: flex,
+  just-cont: center
+);
+
+.talles-boton {
+  background-color: map-get($estilos-talles, bkg-color);
+  border: map-get($estilos-talles, borde);
+  border-radius: map-get($estilos-talles, borde-rad);
+  display: map-get($estilos-talles, dplay);
+  justify-content: map-get($estilos-talles, just-cont);
+}
+
+.small-img{
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Jeans-small, .Remeras-Tops-small, .Camperas-small, .Shorts-small, .Sweaters-small{
+    @extend .small-img
+}
+
+
+

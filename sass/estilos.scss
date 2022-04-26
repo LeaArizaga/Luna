@@ -1,8 +1,8 @@
 //VARIABLES
-
 $tipografia-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 @import "colores";
+@import "exposiciones";
 
 /*BODY*/
 
@@ -186,114 +186,35 @@ p{
     }
 }
 
+
+
 .Jeans-small, .Remeras-Tops-small, .Camperas-small, .Shorts-small, .Sweaters-small { 
     background-image: url("../Assets/banner_jeans-ok.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: 45vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 .Shorts { 
     background-image: url("../Assets/banner_shorts_ok.jpg");
-    // background-size: cover;
-    // background-position: center;
-    // width: 100vw;
-    // height: 25vw;
-    // display: flex;
-    // align-items: center;
-    // flex-direction: column;
-    // margin-top: 50px;
-    // margin-bottom: 50px;
 }
 .Shorts-small { 
     background-image: url("../Assets/banner_shorts_small.jpg");
-    // background-size: cover;
-    // background-position: center;
-    // width: 100vw;
-    // height: 45vw;
-    // display: flex;
-    // align-items: center;
-    // flex-direction: column;
-    // margin-top: 30px;
-    // margin-bottom: 30px;
 }
 .Remeras-Tops { 
     background-image: url("../Assets/banner_remera_ok.jpg");
-    // background-size: cover;
-    // background-position: center;
-    // width: 100vw;
-    // height: 25vw;
-    // display: flex;
-    // align-items: center;
-    // flex-direction: column;
-    // margin-top: 50px;
-    // margin-bottom: 50px;
 }
 .Remeras-Tops-small { 
     background-image: url("../Assets/banner_remera_small.jpg");
-    // background-size: cover;
-    // background-position: center;
-    // width: 100vw;
-    // height: 45vw;
-    // display: flex;
-    // align-items: center;
-    // flex-direction: column;
-    // margin-top: 30px;
-    // margin-bottom: 30px;
 }
 .Sweaters { 
     background-image: url("../Assets/banner-sweater-small.jpg");
-    // background-size: cover;
-    // background-position: center;
-    // width: 100vw;
-    // height: 25vw;
-    // display: flex;
-    // align-items: center;
-    // flex-direction: column;
-    // margin-top: 50px;
-    // margin-bottom: 50px;
 }
 .Sweaters-small {
     background-image: url("../Assets/banner-sweater-small.jpg");
-    // background-size: cover;
-    // background-position: center;
-    // width: 100vw;
-    // height: 45vw;
-    // display: flex;
-    // align-items: center;
-    // flex-direction: column;
-    // margin-top: 30px;
-    // margin-bottom: 30px;
 }
 
 .Camperas { 
     background-image: url("../Assets/Banner_Campera_ok.jpg");
-    // background-size: cover;
-    // background-position: center;
-    // width: 100vw;
-    // height: 25vw;
-    // display: flex;
-    // align-items: center;
-    // flex-direction: column;
-    // margin-top: 50px;
-    // margin-bottom: 50px;
 }
 .Camperas-small{ 
     background-image: url("../Assets/Banner_Campera_small.jpg");
-    // background-size: cover;
-    // background-position: center;
-    // width: 100vw;
-    // height: 45vw;
-    // display: flex;
-    // align-items: center;
-    // flex-direction: column;
-    // margin-top: 30px;
-    // margin-bottom: 30px;
 }
 
 //BOTON MAS PRODUCTOS
