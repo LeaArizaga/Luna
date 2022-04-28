@@ -1,4 +1,8 @@
 @media(max-width: 575px) {
+    .btn-lg .btmasprod {
+        max-width: fit-content;
+        max-height: 20em;
+    }
     .logoybuscador-desk{
         display: none;
     }
@@ -74,19 +78,21 @@
         display: flex;
         flex-direction: column;
     }
+
     .titulo_banner{
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-align: center;
         text-transform: uppercase;
-        margin: 0.8rem auto;
+        margin: 0.5em auto 0.3em auto;
     }
     .vertodos {
         display: flex;
-        margin: 0.5em auto 0.5em auto;
-        width: 35%;
-        line-height: 2em;
+        margin: 0 auto 0 auto;
+        width: 45%;
+        line-height: 1.5em;
         justify-content: center;
+        align-items: center;
         background-color: rgb(255, 132, 132);
         border: none;
         border-radius: 5px;
@@ -169,10 +175,8 @@
         min-height: 23em;
         margin: auto;
     }
-    .btn-lg {
-        max-width: fit-content;
-    }
-    .fotos-producto {
+
+    .itemseleccionado .fotos-producto {
         display: flex;
         flex-direction: column;
         margin: 1em;
@@ -193,7 +197,7 @@
         height: 38vw;
         margin: auto;
     }
-    .fotoproducto {
+    .picproducto {
         width: 33vw;
         height: 38vw;
         margin: auto;   
@@ -207,9 +211,19 @@
     header .buscador {
         display: none;
     }
+    .fotosecundaria{
+        width: 29vw;
+        height: 35vw;  
+    }
+    .carousel-video video {
+        height: 230px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 991.98px){
+    .detalles-producto {
+        margin-right: 2em;
+    }
     .logoybuscador-desk{
         display: none;
     }
@@ -407,9 +421,10 @@
     .menu-footer1 {
         margin: 1rem auto 1rem auto;
     }
-    .itemseleccionado {
-        grid-template-columns: 50em, 50em;
-        grid-template-rows: repeat(5, 10em);
+    .itemseleccionado .fotos-producto {
+        display: flex;
+        flex-direction: column;
+        margin: 3em;
     }
 
     .fotoprincipal{
@@ -417,10 +432,11 @@
         grid-row: 1/2;
         margin: 0;
     }
-    .fotoproducto {
-        width: 33vw;
-        height: 38vw;   
+    .fotosecundaria{
+        width: 29vw;
+        height: 35vw;  
     }
+
     .foto_secundaria1{
         grid-column: 1/4;
         grid-row: 2/3;
@@ -456,14 +472,19 @@
         font-size: 0.9em;
     }
     .fotoprincipal {
-        max-height: 60vh;
+        max-width: 60vh;
     }
-    .fotos-producto {
-        max-height: 120vh;
+    .carousel-video video {
+        height: 400px;
     }
 }
 
 @media screen and (min-width: 576px) and (max-width: 762px){
+
+    .detalles-producto {
+        margin-right: 2em;
+        width: 40vw;
+    }
     .logo-luna-vector{
         height: 10vh;
         margin-left: 0;
@@ -492,11 +513,20 @@
         max-height: 40vh;
     }
     .fotos-producto {
-        max-height: 120vh;
+        display: flex;
+        flex-direction: column;
+        margin: 2em;
+    }
+    .talles {
+        flex-wrap: wrap;
+    }
+    .carousel-video video {
+        height: 330px;
     }
 }
 
-@media screen and (min-width: 991.99px){
+
+@media screen and (min-width: 991.99px) {
     .talles button{
         margin: 1em;
         line-height: 2rem;

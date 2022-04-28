@@ -58,7 +58,7 @@ header{
         text-decoration: none;
         color: black;
         line-height: 2vw;
-        border-bottom: 2px solid rgba(255, 132, 132, 0);
+        border-bottom: 2px solid white;
         &:hover{
             color: $color-primario-solid;
             box-sizing: border-box;
@@ -105,7 +105,6 @@ header{
 h1{
     margin-left: 2%;
 }
-
 
 /* ESTILOS MAIN */
 a{
@@ -289,17 +288,6 @@ p{
 }
 
 
-/* ESTILOS PRODUCTO SELECCIONADO */
-/* .itemseleccionado {
-    display: grid;
-    grid-template-columns: repeat(3, 2fr) 7fr;
-    grid-template-rows: repeat(5, 15vh), 2fr;
-    justify-items: center;
-    margin: 2em;
-    min-width: 80vh;
-} */
-
-
 /* PRODUCTO SELECCIONADO */
 
 .itemseleccionado {
@@ -307,7 +295,7 @@ p{
 
     .fotos-producto {
         display: grid;
-        grid-template-columns: repeat(3, 2fr);
+        grid-template-columns: repeat (3, 2fr);
         grid-template-rows: 4fr 2fr;
         margin: 1em auto auto 4em;
         row-gap: 0.5em;
@@ -317,7 +305,8 @@ p{
             grid-column: 1/4;
             grid-row: 1/6;
             margin: auto;
-            .fotoproducto{
+
+            .picproducto{
             width: 29vw;
             height: 35vw;   
         }
@@ -374,6 +363,13 @@ p{
     .descripcion p {
         text-align: left;
         margin: 1em auto;
+    }
+
+    .precio {
+        text-align: left;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+
     }
 
     .talles-container{
@@ -604,9 +600,9 @@ h5{
 }
 .btn-lg {
     margin: 3vh auto auto auto;
-    width: 30vw; 
+    min-width: 30vw; 
 }
-.sinregistro {
+.sinregistro, .conregistro {
     width: 40%;
     margin: 1vh auto;
     display: flex;
@@ -617,5 +613,10 @@ h5{
     background-color: rgb(255, 132, 132);
     border: none;
 }
+
+.carousel-video video {
+    height: 680px;
+}
+
 
 

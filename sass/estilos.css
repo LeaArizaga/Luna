@@ -22,8 +22,12 @@
   background-color: white;
   border: 2px solid rgba(255, 132, 132, 0.5);
   border-radius: 0.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .small-img, .Jeans-small, .Remeras-Tops-small, .Camperas-small, .Shorts-small, .Sweaters-small {
@@ -31,9 +35,16 @@
   background-position: center;
   width: 100vw;
   height: 45vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -47,21 +58,30 @@ body {
 
 /*HEADER*/
 header {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 330px auto;
-  grid-template-rows: auto auto;
+  -ms-grid-columns: 330px auto;
+      grid-template-columns: 330px auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
+
 header .logo-luna-vector {
   height: 15vh;
   margin: auto;
 }
+
 header .buscador {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: auto 2vh 4vh auto;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
+
 header #buscador {
   height: 2rem;
   width: 300px;
@@ -72,31 +92,44 @@ header #buscador {
   font-style: italic;
   padding-left: 10px;
 }
+
 header .menu-navegador {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
   grid-column: 2/3;
 }
+
 header .menu-principal {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   max-width: 60vw;
   margin: auto;
   font-size: 1.1rem;
   list-style-type: none;
   text-transform: uppercase;
 }
+
 header .menu_item {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-decoration: none;
   color: black;
   line-height: 2vw;
-  border-bottom: 2px solid rgba(255, 132, 132, 0);
+  border-bottom: 2px solid white;
 }
+
 header .menu_item:hover {
-  color: rgb(255, 132, 132);
-  box-sizing: border-box;
-  border-bottom: 2px solid rgb(255, 132, 132);
+  color: #ff8484;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 2px solid #ff8484;
 }
+
 header .buscador button {
   padding: 2px;
   margin: 0 2vh 2vh 1vh;
@@ -106,22 +139,39 @@ header .buscador button {
   color: white;
   border-radius: 5px;
 }
+
 header #lupa {
   font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: auto;
   color: white;
 }
+
 header .navbar {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
   grid-row: 1/3;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: none;
+      flex-wrap: none;
 }
+
 header .bg-white {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
   grid-column: 1/4;
 }
+
 header .nav-item {
   text-transform: uppercase;
   font-size: 1rem;
@@ -149,14 +199,18 @@ main {
 
 h3 {
   text-align: center;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-transform: uppercase;
   font-weight: 500;
 }
 
 p {
   text-align: center;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 14px;
 }
 
@@ -167,23 +221,38 @@ p {
   background-position: center;
   width: 100vw;
   height: 25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .Jeans .categoria_banner, .Sweaters .categoria_banner, .Camperas .categoria_banner, .Shorts .categoria_banner, .Remeras-Tops .categoria_banner {
   width: 50vw;
   min-height: 10vw;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 .Jeans .categoria_banner:hover, .Sweaters .categoria_banner:hover, .Camperas .categoria_banner:hover, .Shorts .categoria_banner:hover, .Remeras-Tops .categoria_banner:hover {
   background-color: rgba(255, 132, 132, 0.3);
 }
+
 .Jeans .categoria_banner p, .Sweaters .categoria_banner p, .Camperas .categoria_banner p, .Shorts .categoria_banner p, .Remeras-Tops .categoria_banner p {
   font-weight: bold;
   font-size: 3rem;
@@ -191,11 +260,16 @@ p {
   text-transform: uppercase;
   margin: 3vh 0 1vh 0;
 }
+
 .Jeans .categoria_banner a .vertodos, .Sweaters .categoria_banner a .vertodos, .Camperas .categoria_banner a .vertodos, .Shorts .categoria_banner a .vertodos, .Remeras-Tops .categoria_banner a .vertodos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: auto auto 1rem auto;
   min-height: 4vh;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   background-color: rgba(255, 132, 132, 0.8);
   color: black;
@@ -206,8 +280,9 @@ p {
   border: none;
   padding: 8px;
 }
+
 .Jeans .categoria_banner a .vertodos:hover, .Sweaters .categoria_banner a .vertodos:hover, .Camperas .categoria_banner a .vertodos:hover, .Shorts .categoria_banner a .vertodos:hover, .Remeras-Tops .categoria_banner a .vertodos:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 
 .Jeans-small, .Remeras-Tops-small, .Camperas-small, .Shorts-small, .Sweaters-small {
@@ -247,22 +322,29 @@ p {
 }
 
 .btmasprod {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .rrss {
   text-align: center;
 }
+
 .rrss a {
   text-decoration: none;
   color: black;
 }
+
 .rrss .texto_rrss {
   margin-top: 50px;
   margin-bottom: auto;
   font-size: 2rem;
 }
+
 .rrss .fa-brands {
   font-size: 3rem;
   padding: 16px;
@@ -271,10 +353,15 @@ p {
 /*CATEGORIAS JEANS*/
 .categorias {
   padding: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 2em auto 3em auto;
 }
+
 .categorias .fa-sliders {
   padding-right: 2.5em;
   font-size: 2rem;
@@ -282,148 +369,232 @@ p {
 }
 
 .main_products {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0.5%;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
+
 .main_products .card-img-top {
   width: 17rem;
   height: 23vw;
   padding: 0.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .main_products .card {
   border: none;
   margin: 0.5em;
   padding: 8px;
   color: black;
 }
+
 .main_products .card:hover {
   background-color: rgba(255, 132, 132, 0.2);
 }
+
 .main_products .card a {
   color: black;
 }
+
 .main_products .card-body {
   background-color: white;
 }
+
 .main_products .card-body:hover {
   background-color: rgba(255, 132, 132, 0.2);
 }
 
-/* ESTILOS PRODUCTO SELECCIONADO */
-/* .itemseleccionado {
-    display: grid;
-    grid-template-columns: repeat(3, 2fr) 7fr;
-    grid-template-rows: repeat(5, 15vh), 2fr;
-    justify-items: center;
-    margin: 2em;
-    min-width: 80vh;
-} */
 /* PRODUCTO SELECCIONADO */
 .itemseleccionado {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .itemseleccionado .fotos-producto {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(3, 2fr);
-  grid-template-rows: 4fr 2fr;
+  -ms-grid-columns: repeat 3, 2fr;
+      grid-template-columns: repeat 3, 2fr;
+  -ms-grid-rows: 4fr 2fr;
+      grid-template-rows: 4fr 2fr;
   margin: 1em auto auto 4em;
   row-gap: 0.5em;
-  column-gap: 0.5em;
+  -webkit-column-gap: 0.5em;
+          column-gap: 0.5em;
 }
+
 .itemseleccionado .fotos-producto .fotoprincipal {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
   grid-column: 1/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
   grid-row: 1/6;
   margin: auto;
 }
-.itemseleccionado .fotos-producto .fotoprincipal .fotoproducto {
+
+.itemseleccionado .fotos-producto .fotoprincipal .picproducto {
   width: 29vw;
   height: 35vw;
 }
+
 .itemseleccionado .fotos-producto .foto_secundaria1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   grid-column: 1/2;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
   grid-row: 6/7;
 }
+
 .itemseleccionado .fotos-producto .foto_secundaria1 .foto1 {
   width: 12vw;
   height: 13vw;
 }
+
 .itemseleccionado .fotos-producto .foto_secundaria2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
   grid-column: 2/3;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
   grid-row: 6/7;
 }
+
 .itemseleccionado .fotos-producto .foto_secundaria2 .foto1 {
   width: 12vw;
   height: 13vw;
 }
+
 .itemseleccionado .fotos-producto .foto_secundaria3 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
   grid-column: 3/4;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
   grid-row: 6/7;
 }
+
 .itemseleccionado .fotos-producto .foto_secundaria3 .foto1 {
   width: 12vw;
   height: 13vw;
 }
 
 .detalles-producto {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 2vw auto auto 1vw;
 }
+
 .detalles-producto .nombre-producto {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .detalles-producto .nombre-producto .fa-heart {
   font-size: 2rem;
   padding-right: 1em;
-  color: rgb(199, 199, 199);
+  color: #c7c7c7;
 }
+
 .detalles-producto .nombre-producto .fa-heart:hover {
-  color: rgb(255, 132, 132);
+  color: #ff8484;
 }
+
 .detalles-producto .descripcion p {
   text-align: left;
   margin: 1em auto;
 }
+
+.detalles-producto .precio {
+  text-align: left;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
 .detalles-producto .talles-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   min-width: 30vw;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
   grid-column: 4/5;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
   grid-row: 3/4;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 2em;
 }
+
 .detalles-producto .talles-container p {
   text-align: left;
 }
+
 .detalles-producto .talles-container .talles {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   min-width: 30vw;
 }
+
 .detalles-producto .talles-container .talles button {
   background-color: white;
   border: 2px solid rgba(255, 132, 132, 0.5);
   border-radius: 0.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .detalles-producto .talles-container .talles button:hover {
   margin: 1em;
   line-height: 2rem;
   min-width: 3em;
-  background-color: rgb(255, 132, 132);
+  background-color: #ff8484;
   border: 2px solid rgba(255, 132, 132, 0);
   color: white;
   border-radius: 0.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .detalles-producto .guiatalles {
   text-transform: uppercase;
   font-size: 1rem;
@@ -431,10 +602,14 @@ p {
   text-decoration: none;
   text-decoration: underline;
 }
+
 .detalles-producto .cantidad {
   margin-bottom: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .detalles-producto .cantidad p {
   text-align: left;
   margin: auto 1em auto auto;
@@ -442,23 +617,39 @@ p {
 
 /* SOBRE NOSOTROS */
 .sobrenosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 2rem auto auto auto;
 }
+
 .sobrenosotros .sobrenosotros_texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: left;
-  flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 1rem 2rem 1rem 2rem;
   width: 50vw;
 }
+
 .sobrenosotros .sobrenosotros_texto .historia {
   font-size: 2rem;
   text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 2rem;
 }
+
 .sobrenosotros .sobrenosotros_texto .textohistoria {
   font-size: 1.3rem;
   font-style: italic;
@@ -467,36 +658,59 @@ p {
   word-spacing: 2px;
   line-height: 2rem;
 }
+
 .sobrenosotros .Interiorlocal {
   width: 50%;
   max-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   margin: auto;
-  filter: sepia(50%);
+  -webkit-filter: sepia(50%);
+          filter: sepia(50%);
 }
+
 .sobrenosotros .Interiorlocal_small {
   width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   margin: auto;
-  filter: sepia(50%);
+  -webkit-filter: sepia(50%);
+          filter: sepia(50%);
 }
 
 /* CONTACTO */
 .contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .contacto .horarios {
   background-image: url(../Assets/denim2.png);
   width: 80vh;
   height: 70vh;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 3rem 3rem auto 3rem;
 }
+
 .contacto .horarios .titulo_horarios {
   text-decoration: underline;
   font-size: 1.5rem;
@@ -504,24 +718,29 @@ p {
   line-height: 1.5em;
   margin: 0;
 }
+
 .contacto .horarios p {
   font-size: 1.5rem;
   margin: 0;
   line-height: 2em;
   background-color: rgba(255, 255, 255, 0.6);
 }
+
 .contacto .formulario_contacto {
   margin: auto 2rem auto 2rem;
   width: 60vw;
 }
+
 .contacto .formulario_contacto .titulo_contacto {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 2em auto 2em auto;
 }
+
 .contacto .formulario_contacto input {
   width: 100%;
 }
+
 .contacto .formulario_contacto label {
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -546,7 +765,7 @@ a {
 }
 
 .btn-primary {
-  background-color: rgb(255, 132, 132);
+  background-color: #ff8484;
 }
 
 h5 {
@@ -560,28 +779,42 @@ h5 {
 }
 
 .Inicio_sesion_registro {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 50vw;
   margin: 5vh auto;
 }
 
 .btn-lg {
   margin: 3vh auto auto auto;
-  width: 30vw;
+  min-width: 30vw;
 }
 
-.sinregistro {
+.sinregistro, .conregistro {
   width: 40%;
   margin: 1vh auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .btn-outline-success {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
-  background-color: rgb(255, 132, 132);
+  background-color: #ff8484;
   border: none;
 }
 
+.carousel-video video {
+  height: 680px;
+}
 /*# sourceMappingURL=estilos.css.map */
