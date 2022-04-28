@@ -768,10 +768,10 @@ a {
   background-color: #ff8484;
 }
 
-h5 {
+h5, h6 {
   text-align: center;
   line-height: 1.5rem;
-  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .col-2 {
