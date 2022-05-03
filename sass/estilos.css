@@ -439,7 +439,7 @@ p {
   -ms-grid-row: 1;
   -ms-grid-row-span: 5;
   grid-row: 1/6;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .itemseleccionado .fotos-producto .fotoprincipal .picproducto {
@@ -524,6 +524,36 @@ p {
   margin: 1em auto;
 }
 
+.detalles-producto .composicion h6, .detalles-producto p {
+  text-align: left;
+  line-height: 1rem;
+}
+
+.detalles-producto .cuidados .icono-cuidado-grupo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50vw;
+}
+
+.detalles-producto .cuidados p {
+  width: 25vw;
+  margin: 0;
+}
+
+.detalles-producto .cuidados .iconocuidado {
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5em;
+}
+
+.detalles-producto .cuidados h6 {
+  text-align: left;
+  line-height: 1rem;
+}
+
 .detalles-producto .precio {
   text-align: left;
   margin-top: 1.5em;
@@ -550,6 +580,7 @@ p {
   grid-row: 3/4;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-top: 2em;
   margin-bottom: 2em;
 }
 
@@ -595,7 +626,7 @@ p {
           justify-content: center;
 }
 
-.detalles-producto .guiatalles {
+.detalles-producto .talles-container .guiatalles {
   text-transform: uppercase;
   font-size: 1rem;
   color: black;
@@ -603,16 +634,31 @@ p {
   text-decoration: underline;
 }
 
-.detalles-producto .cantidad {
+.detalles-producto .talles-container .cantidad {
   margin-bottom: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.detalles-producto .cantidad p {
+.detalles-producto .talles-container .cantidad p {
   text-align: left;
   margin: auto 1em auto auto;
+}
+
+.radio__variations--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style-type: none;
+  line-height: 2rem;
+}
+
+.radio__variations--list .radio__variations--item {
+  padding: 2em;
 }
 
 /* SOBRE NOSOTROS */
@@ -758,7 +804,6 @@ a {
   color: black;
 }
 
-/* TRANSFORMACIONES Y ANIMACIONES */
 /* BOOTSTRAP */
 .col-2 {
   margin: auto;

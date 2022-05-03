@@ -304,7 +304,7 @@ p{
         .fotoprincipal{
             grid-column: 1/4;
             grid-row: 1/6;
-            margin: auto;
+            margin: 0 auto;
 
             .picproducto{
             width: 29vw;
@@ -365,6 +365,31 @@ p{
         margin: 1em auto;
     }
 
+    .composicion h6, p {
+        text-align: left;
+        line-height: 1rem;
+    }
+    .cuidados {
+        
+        .icono-cuidado-grupo {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50vw;
+        }
+        p {
+            width: 25vw;
+            margin: 0;
+        }
+        .iconocuidado {
+            width: 2rem;
+            height: 2rem;
+            padding: 0.5em;
+        }
+            h6 {
+            text-align: left;
+            line-height: 1rem;
+            }
+    }
     .precio {
         text-align: left;
         margin-top: 1.5em;
@@ -380,6 +405,7 @@ p{
         grid-column: 4/5;
         grid-row: 3/4;
         flex-wrap: wrap;
+        margin-top: 2em;
         margin-bottom: 2em;
         
         p {
@@ -409,29 +435,38 @@ p{
                 }
             }
         }
-    }
-
-    .guiatalles{
-        text-transform: uppercase;
-        font-size: 1rem;
-        color: black;
-        text-decoration: none;
-        text-decoration: underline;
-    }
+        .guiatalles{
+            text-transform: uppercase;
+            font-size: 1rem;
+            color: black;
+            text-decoration: none;
+            text-decoration: underline;
+        }
+        .cantidad {
+            margin-bottom: 2em;
+            display: flex;
+            
+            p {
+                text-align: left;
+                margin: auto 1em auto auto;
+            }
+        }
+    }   
+}
  
-    .cantidad {
-        margin-bottom: 2em;
-        display: flex;
-        
-        p {
-            text-align: left;
-            margin: auto 1em auto auto;
+//PRUEBA RADIO BUTTONS CON COLOR - Remera Molly - Acordion
+
+
+
+.radio__variations--list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    line-height: 2rem;
+    .radio__variations--item {
+        padding: 2em;
         }
     }
-    
-    
-}
-
 /* SOBRE NOSOTROS */
 
 .sobrenosotros{
@@ -529,7 +564,6 @@ p{
 }
 
 
-
 /* ESTILOS FOOTER */
 
 footer {
@@ -542,38 +576,6 @@ a {
     text-decoration: none;
     color: black;
 }
-
-/* TRANSFORMACIONES Y ANIMACIONES */
-
-// .menu_item:hover{
-//     color: rgb(255, 132, 132);
-//     box-sizing: border-box;
-//     border-bottom: 2px solid rgb(255, 132, 132);
-// }
-// .talles button:hover{
-//     margin: 1em;
-//     line-height: 2rem;
-//     min-width: 3em;
-//     background-color: rgb(255, 132, 132);
-//     border: 2px solid rgba(255, 132, 132, 0);
-//     color: white;
-//     border-radius: 0.3rem;
-//     display: flex;
-//     justify-content: center;
-// }
-// .categoria_banner:hover {
-//     background-color: rgba(255, 132, 132, 0.30);
-// }
-
-// .categoria_banner:hover> a .vertodos {
-//     background-color: rgb(255, 255, 255);
-// }
-// .card:hover{
-//     background-color: rgba(255, 132, 132, 0.20);    
-// } 
-// .card:hover>.card-body {
-//     background-color: rgba(255, 132, 132, 0.2);
-// }
 
 /* BOOTSTRAP */
 .col-2 {
