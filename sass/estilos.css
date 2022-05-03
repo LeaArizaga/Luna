@@ -529,6 +529,10 @@ p {
   line-height: 1rem;
 }
 
+.detalles-producto .cuidados {
+  margin: 2em 0;
+}
+
 .detalles-producto .cuidados .icono-cuidado-grupo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -556,8 +560,7 @@ p {
 
 .detalles-producto .precio {
   text-align: left;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 1em;
 }
 
 .detalles-producto .talles-container {
@@ -639,6 +642,10 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.detalles-producto .talles-container .cantidad h6 {
+  text-align: left;
 }
 
 .detalles-producto .talles-container .cantidad p {
@@ -813,10 +820,14 @@ a {
   background-color: #ff8484;
 }
 
-h5, h6 {
+h5 {
   text-align: center;
-  line-height: 1.5rem;
-  margin-top: 1em;
+  margin-top: 0.5em;
+}
+
+h6 {
+  text-align: left;
+  margin-top: 0.5em;
 }
 
 .col-2 {

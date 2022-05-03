@@ -371,6 +371,8 @@ p{
     }
     .cuidados {
         
+        margin: 2em 0;
+
         .icono-cuidado-grupo {
             display: flex;
             flex-wrap: wrap;
@@ -392,9 +394,7 @@ p{
     }
     .precio {
         text-align: left;
-        margin-top: 1.5em;
-        margin-bottom: 1.5em;
-
+        margin-top: 1em;
     }
 
     .talles-container{
@@ -445,7 +445,11 @@ p{
         .cantidad {
             margin-bottom: 2em;
             display: flex;
-            
+             
+            h6 {
+                text-align: left;
+            }
+
             p {
                 text-align: left;
                 margin: auto 1em auto auto;
@@ -584,10 +588,13 @@ a {
 .btn-primary {
     background-color: rgb(255, 132, 132)
 }
-h5, h6 {
+h5 {
     text-align: center;
-    line-height: 1.5rem;
-    margin-top: 1em;
+    margin-top: 0.5em;
+}
+h6 {
+    text-align: left;
+    margin-top: 0.5em;
 }
 
 .col-2 {
