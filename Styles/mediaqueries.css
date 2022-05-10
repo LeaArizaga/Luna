@@ -1,4 +1,91 @@
-@media(max-width: 575px) {
+@media (max-width: 428px) {
+    .logoybuscador-desk, header .buscador, .menu-navegador {
+        display: none;
+    }
+    .logo-luna-vector{
+        width: 12vh;
+        padding: 0 0.5em;
+    }
+    .bg-white {
+        flex-wrap: nowrap;
+    }
+    #carouselExampleCaptions .carousel-video {
+        width: 110%;
+    }
+    .rrss .texto_rrss {
+        font-size: 1.5rem;
+        margin: 1em 1em 0.5em 1em;
+    }
+
+    .Jeans, .Remeras-Tops, .Camperas, .Shorts, .Sweaters {
+        display: none;
+    }
+    .Jeans-small, .Sweaters-small, .Remeras-Tops-small, .Shorts-small, .Camperas-small  {
+        width: 100vw;
+        height: 40vw;
+    }
+
+    .categoria_banner_small{
+        width: 60vw;
+        height: 30vw;
+        margin: auto;
+        background-color: rgb(255, 255, 255, 0.80);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo_banner{
+        font-weight: bold;
+        font-size: 1.8rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0.5em auto 0.3em auto;
+    }
+    .vertodos {
+        display: flex;
+        margin: 0 auto 0 auto;
+        width: 60%;
+        line-height: 1.8em;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 132, 132);
+        border: none;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+    .card-img-top {
+        min-height: 23em;
+        margin: auto;
+    }
+    .categorias {
+        margin: 1em;
+    }
+    .categorias .fa-sliders {
+        padding-right: 1em;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-2 {
+        margin: 0;
+        width: 50vw;
+    }
+    .offset-1{
+        margin: 0 0 2em 0;
+        width: 70vw;
+    }
+    footer h5{
+        margin: 0 0 0.5em 0;
+        width: 70vw;
+    }
+
+}
+
+@media (min-width: 429px) and (max-width: 575px) {
     .btn-lg .btmasprod {
         max-width: fit-content;
         max-height: 20em;
@@ -18,18 +105,17 @@
   }
   .logoybuscador{
       padding: none;
-}
+    }
   header{
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
     margin-bottom: auto;
-  }
+    }
   .logo-luna-vector{
     width: 20vw;
     height: 7vh;
     margin: auto;
     display: block;
-
     }  
     #burger {
     margin: auto;
@@ -90,7 +176,7 @@
         display: flex;
         margin: 0 auto 0 auto;
         width: 45%;
-        line-height: 1.5em;
+        line-height: 2em;
         justify-content: center;
         align-items: center;
         background-color: rgb(255, 132, 132);
@@ -147,9 +233,6 @@
     }
     footer {
         padding-bottom: 1rem;
-    }
-    .grid-footer {
-        grid-template-columns: 1fr;
     }
     .suscribete {
         display: flex;
@@ -527,7 +610,7 @@
 
 
 @media screen and (min-width: 991.99px) {
-    .talles button{
+    .talles button {
         margin: 1em;
         line-height: 2rem;
         min-width: 3em;

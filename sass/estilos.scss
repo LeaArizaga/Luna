@@ -345,7 +345,7 @@ p{
 .detalles-producto {
     display: flex;
     flex-direction: column;
-    margin: 2vw auto auto 1vw;
+    margin: 2vw auto auto 2vw;
     
     .nombre-producto {
         display: flex;
@@ -626,6 +626,7 @@ h5 {
 .carousel-video video {
     height: 680px;
 }
-
-
-
+//MODAL
+#modalSignin{
+    $modal-transition: transform .3s ease-out;
+}

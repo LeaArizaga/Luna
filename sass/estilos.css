@@ -497,7 +497,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 2vw auto auto 1vw;
+  margin: 2vw auto auto 2vw;
 }
 
 .detalles-producto .nombre-producto {
