@@ -244,13 +244,12 @@ p{
 /*CATEGORIAS JEANS*/
 
 .categorias {
-    padding: auto;
-    display: flex;
+    padding: 0 5vw;
+    display: flex ;
     justify-content: space-between;
     margin: 2em auto 3em auto;
     
     .fa-sliders {
-        padding-right: 2.5em;
         font-size: 2rem;
         margin: auto 1vh auto 1vh;
     }
@@ -258,7 +257,8 @@ p{
 
 .main_products {
     display: flex;
-    margin: 0.5%;
+    width: 60vw;
+    margin: 0 auto;
     flex-wrap: wrap;
     .card-img-top{
         width: 17rem;
@@ -376,11 +376,12 @@ p{
         .icono-cuidado-grupo {
             display: flex;
             flex-wrap: wrap;
-            width: 50vw;
+            width: 55vw;
         }
         p {
             width: 25vw;
             margin: 0;
+            padding-left: 1vw;
         }
         .iconocuidado {
             width: 2rem;
@@ -467,8 +468,17 @@ p{
     justify-content: space-evenly;
     list-style-type: none;
     line-height: 2rem;
+    padding: 0;
+    flex-wrap: wrap;
     .radio__variations--item {
-        padding: 2em;
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30vw;
+        label{
+            padding-left: 2vw;
+        }
         }
     }
 /* SOBRE NOSOTROS */
@@ -532,7 +542,6 @@ p{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 3rem 3rem auto 3rem;
 
         .titulo_horarios{
             text-decoration: underline;

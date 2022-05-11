@@ -352,7 +352,7 @@ p {
 
 /*CATEGORIAS JEANS*/
 .categorias {
-  padding: auto;
+  padding: 0 5vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -363,7 +363,6 @@ p {
 }
 
 .categorias .fa-sliders {
-  padding-right: 2.5em;
   font-size: 2rem;
   margin: auto 1vh auto 1vh;
 }
@@ -372,7 +371,8 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0.5%;
+  width: 60vw;
+  margin: 0 auto;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -539,12 +539,13 @@ p {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 50vw;
+  width: 55vw;
 }
 
 .detalles-producto .cuidados p {
   width: 25vw;
   margin: 0;
+  padding-left: 1vw;
 }
 
 .detalles-producto .cuidados .iconocuidado {
@@ -662,10 +663,27 @@ p {
           justify-content: space-evenly;
   list-style-type: none;
   line-height: 2rem;
+  padding: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .radio__variations--list .radio__variations--item {
-  padding: 2em;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30vw;
+}
+
+.radio__variations--list .radio__variations--item label {
+  padding-left: 2vw;
 }
 
 /* SOBRE NOSOTROS */
@@ -761,7 +779,6 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 3rem 3rem auto 3rem;
 }
 
 .contacto .horarios .titulo_horarios {
