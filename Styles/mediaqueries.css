@@ -1,4 +1,4 @@
-@media (max-width: 470px){
+@media (max-width: 458px){
     .logoybuscador-desk, header .buscador, header .menu-navegador{
         display: none;
     }
@@ -178,7 +178,7 @@
     }
 }
 
-@media screen and (min-width: 471px) and (max-width: 575px){
+@media screen and (min-width: 459px) and (max-width: 575px){
 
     .btn-lg .btmasprod {
         max-width: fit-content;
