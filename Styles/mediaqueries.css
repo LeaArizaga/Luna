@@ -1,4 +1,174 @@
-@media (max-width: 575px) {
+@media (max-width: 470px){
+    .logoybuscador-desk, header .buscador, header .menu-navegador{
+        display: none;
+    }
+    header .logo-luna-vector {
+        width: 45vw;
+    }
+    body header .navbar .container-fluid .d-flex input, .btn-outline-success {
+        display: none;
+    }
+    .btn-lg .btmasprod {
+        max-width: fit-content;
+        max-height: 20em;
+    }
+    .Jeans {
+        display: none;
+    }
+    .Shorts {
+        display: none;
+    }
+    .Remeras-Tops {
+        display: none;
+    }
+    .Sweaters {
+        display: none;
+    }
+    .Camperas {
+        display: none;
+    }
+    .categoria_banner_small{
+        width: 60vw;
+        height: 22vw;
+        margin: auto;
+        background-color: rgb(255, 255, 255, 0.80);
+        display: flex;
+        flex-direction: column;
+    }
+    .vertodos {
+        display: flex;
+        margin: 0 auto auto auto;
+        width: 20vh;
+        line-height: 1.2em;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 132, 132);
+        border: none;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+    .titulo_banner{
+        font-weight: bold;
+        font-size: 1.8rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0.3em auto 0.3em auto;
+        line-height: 2rem;
+    }
+    .rrss .texto_rrss {
+        font-size: 1.5rem;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .offset-1 {
+        margin: 0 0 6vh 0;
+        width: 85vw;
+    }
+    .col-2 {
+        margin: 0;
+        width: 70vw;
+        text-align: center;
+    }
+    .main_products .card-img-top {
+        min-height: 50vh;
+    }
+    .main_products {
+        width: fit-content;
+    }
+    .sobrenosotros .Interiorlocal{
+        display: none;    
+    }
+    .imagen_producto{
+        width: 90vw;
+        height: auto;
+    }
+    .main_products .card{
+        margin: 0 auto;
+    }
+    .itemseleccionado {
+        display: flex;
+        flex-direction: column;
+    }
+    .itemseleccionado .fotos-producto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em;
+    }
+
+    .talles {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .talles button {
+        width: 2em;
+        margin: 0.7em;
+        font-size: 0.8em;
+    }
+    .foto1 {
+        width: 33vw;
+        height: 38vw;
+        margin: auto;
+    }
+    .itemseleccionado .fotos-producto .fotoprincipal {
+        margin: 0;
+    }
+
+    .itemseleccionado .fotos-producto .fotoprincipal .picproducto {
+        width: 40vw;
+        height: 45vw;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .itemseleccionado .fotos-producto .foto_secundaria1 .fotosecundaria, .foto_secundaria2 .fotosecundaria, .foto_secundaria3 .fotosecundaria {
+        width: 40vw;
+        height: 45vw; 
+    }
+    .fotos-producto {
+        flex-wrap: wrap;
+    }
+    .cantidad {
+        font-size: 0.6rem;   
+    }
+    .detalles-producto {
+        width: 90vw;
+        margin: auto;
+
+    }
+    .cuidados {
+        width: 80vw;
+    }
+    .detalles-producto .cuidados p {
+        min-width: 80vw;
+    }
+    .contacto {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .contacto .formulario_contacto {
+        min-width: 80vw;
+        margin-bottom: 2em;
+    }
+    .contacto .horarios {
+        width: fit-content;
+    }
+    .contacto .horarios .titulos_horario p {
+        line-height: 1em;
+    }
+    .carousel-video video {
+        height: 230px;
+    }
+
+}
+
+@media screen and (min-width: 471px) and (max-width: 575px){
+
     .btn-lg .btmasprod {
         max-width: fit-content;
         max-height: 20em;
@@ -229,7 +399,7 @@
         margin-right: 2em;
         width: 60vw;
     }
-    .logo-luna-vector{
+    header .logo-luna-vector{
         height: 10vh;
         margin-left: 0;
         margin-right: auto;
@@ -287,6 +457,10 @@
     }
     .sobrenosotros .Interiorlocal{
         display: none;
+    }
+    .contacto {
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
 
@@ -459,6 +633,7 @@
     }
     .contacto {
         flex-direction: column-reverse;
+        align-items: center;
     }
     .formulario_contacto {
         min-width: 80vw;
@@ -559,8 +734,6 @@
         height: 400px;
     }
 }
-
-
 
 @media screen and (min-width: 991.99px) {
     .talles button {
